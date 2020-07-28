@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name" translatable="false">LeftoverSaver</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="email">Email</string>
+    <string name="name">Name </string>
+    <string name="phone_number">PhoneNumber</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="who_are_you">Who are you?</string>
+    <string name="login">Log In</string>
+    <string name="profile">Profile</string>
+    <string name="additem">Item Details</string>
+    <string name="itemname">Name</string>
+    <string name="amount">Amount</string>
+    <string name="add">Add</string>
+    <string name="item">Items</string>
+    <string name="left">Left</string>
+    <string name="order">Make an order</string>
+    <string name="pick_your_donor">Pick your donor</string>
+    <string name="delivery">Delivery</string>
+    <string name="takeHome">Come &amp; Get</string>
+    <string name="needy">Needy</string>
+    <string name="donor">Donor</string>
+    <string name="volunteer">Volunteer</string>
+    <string name="orders">Orders</string>
+    <string name="orders_in">Orders in</string>
+    <string name="choose_city">Click to choose your city</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="ok">OK</string>
+    <string name="order_status">Status </string>
+    <string name="needy_phone">Needy Phone : </string>
+    <string name="needy_address">Needy Address: </string>
+    <string name="donor_name">Donor Name: </string>
+    <string name="search">Search</string>
+    <string name="title_activity_donor_main">DonorMainActivity</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">History</string>
+    <string name="pick_your_location">Click to pick your location</string>
+    <string name="locate_me">locate me</string>
+    <string name="background">background</string>
+    <string name="welcome">Welcome</string>
+    <string name="none">None</string>
+    <string name="address_info">eg. house.no, street name</string>
+    <string name="city">City :</string>
+    <string name="confirm">Confirm</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="search_by_needy_phone">Search by needy phone</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_address_city_or_zip_code">Enter Address, City or Zip Code</string>
+    <string name="leftoversaver" translatable="false">LeftoverSaver</string>
+    <string name="food" translatable="false">food</string>
+    <string name="you_have_no_items">You have no items</string>
+    <string name="no_orders">No orders available in your area</string>
+    <string name="do_you_want_to_confirm_this_for_delivery">Do you want to confirm this for delivery?</string>
+    <string name="added_to_history"> Added to history </string>
+    <string name="error"> Sorry, an error has occurred </string>
+    <string name="added"> Successfully added </string>
+    <string name="enter_email"> Please enter your email! </string>
+    <string name="enter_name"> Please enter your name! </string>
+    <string name="enter_phone"> Please enter your phone number! </string>
+    <string name="enter_address"> Please enter your address! </string>
+    <string name="enter_password"> Please enter your password! </string>
+    <string name="successful_register"> Successfully registered! </string>
+    <string name="verify_email"> Please enter a valid email address </string>
+    <string name="wrong_account"> Sorry, wrong phoneNumber or password! </string>
+    <string name="item_deleted"> Item deleted successfully! </string>
+    <string name="item_added"> Successfully added! </string>
+    <string name="item_updated"> Successfully updated! </string>
+    <string name="enter_item_name"> Please enter the name of the item </string>
+    <string name="enter_item_amount"> Please enter the amount of the item </string>
+    <string name="order_deleted"> Order deleted successfully! </string>
+    <string name="order_confirmed"> Order confirmed! </string>
+    <string name="pick_one_item_message"> You have to at least pick 1 item </string>
+    <string name="upload_sccess"> Image changed successfully </string>
+    <string name="press_to_choose_imagee">press to choose image</string>
+    <string name="short_password">Your password is too short</string>
+    <string name="register">Register</string>
+    <string name="eg_chicken">Eg. Chicken</string>
+    <string name="enter">Enter</string>
+    <string name="order_updated">Order status updated to delivered</string>
+    <string name="out_of_stock"> Out of stock </string>
+    <string name="restaurants">Donors in</string>
+    <string name="items_limit">You cannot order more than 50% of a certain items</string>
+    <string name="order_is_below">Your order information will be here</string>
+    <string name="confirm_delivery">Order Delivered</string>
+    <string name="amount_hint">Eg. 1.5</string>
+    <string name="order_type">Order Type</string>
+
+    <string-array name="usertype">
+        <item>Needy</item>
+        <item>Volunteer</item>
+        <item>Donor</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>Choose a language</item>
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+
+</resources>

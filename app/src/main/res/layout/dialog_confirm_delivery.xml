@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="180dp"
+    android:background="@drawable/dialog_background_white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/confirm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="@string/do_you_want_to_confirm_this_for_delivery"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/button_anim_white"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/confirm"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="14sp" />
+
+</RelativeLayout>

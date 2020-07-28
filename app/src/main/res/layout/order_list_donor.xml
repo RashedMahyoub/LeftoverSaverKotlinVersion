@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    card_view:cardBackgroundColor="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/text_rect">
+
+
+        <TextView
+            android:id="@+id/needy_info"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/info"
+            android:fontFamily="@font/comfortaa"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/needy_phone"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/info4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/needy_address"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/info6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info4"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/volunteer"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/info_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info4"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/volunteer_info"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/order_type"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/donor"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/info3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/city"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/info5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/needy_info"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/order_status"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/address_info"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/city_name"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/info4"
+            android:fontFamily="@font/comfortaa"
+            android:paddingEnd="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            card_view:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/volunteer_info"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/address_info"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/info6"
+            android:fontFamily="@font/comfortaa"
+            android:paddingEnd="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            card_view:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/order_type_info"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/address_info"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/info_type"
+            android:fontFamily="@font/comfortaa"
+            android:paddingEnd="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            card_view:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/items_info"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/volunteer_info"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/text_border"
+            android:fontFamily="@font/comfortaa"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/info2"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/info3"
+            android:fontFamily="@font/comfortaa"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/donor_info"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/info"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@+id/info2"
+            android:fontFamily="@font/comfortaa"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/info5"
+            android:fontFamily="@font/comfortaa"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

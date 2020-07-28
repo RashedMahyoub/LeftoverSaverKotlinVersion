@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_container_needy"
+    app:startDestination="@id/needyHomeFragment">
+
+    <fragment
+        android:id="@+id/restauantItemsFragment"
+        android:name="com.snipertech.leftoversaver.view.ui.needy.DonorItemsFragment"
+        android:label="@string/item"
+        tools:layout="@layout/donor_items_fragment">
+        <action
+            android:id="@+id/action_restauantItemsFragment_to_restaurantListFragment"
+            app:destination="@id/restaurantListFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_restauantItemsFragment_to_needySettingsFragment"
+            app:destination="@id/needySettingsFragment"
+            app:enterAnim="@anim/slide_in_down"
+            app:exitAnim="@anim/slide_out_up"
+            app:popEnterAnim="@anim/slide_in_up"
+            app:popExitAnim="@anim/slide_out_down" />
+        <argument
+            android:name="Donor"
+            app:argType="com.snipertech.leftoversaver.model.Donor" />
+        <action
+            android:id="@+id/action_restauantItemsFragment_to_needyHomeFragment"
+            app:destination="@id/needyHomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantListFragment"
+        android:name="com.snipertech.leftoversaver.view.ui.needy.DonorListFragment"
+        android:label="@string/pick_your_donor"
+        tools:layout="@layout/donor_list_fragment">
+        <action
+            android:id="@+id/action_restaurantListFragment_to_restauantItemsFragment"
+            app:destination="@id/restauantItemsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_restaurantListFragment_to_needySettingsFragment"
+            app:destination="@id/needySettingsFragment"
+            app:enterAnim="@anim/slide_in_down"
+            app:exitAnim="@anim/slide_out_up"
+            app:popEnterAnim="@anim/slide_in_up"
+            app:popExitAnim="@anim/slide_out_down" />
+        <argument
+            android:name="City"
+            app:argType="string"
+            android:defaultValue=""/>
+    </fragment>
+    <fragment
+        android:id="@+id/needySettingsFragment"
+        android:name="com.snipertech.leftoversaver.view.ui.needy.NeedySettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/needy_settings_fragment"/>
+    <fragment
+        android:id="@+id/needyHomeFragment"
+        android:name="com.snipertech.leftoversaver.view.ui.needy.NeedyHomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_needy_home" >
+        <action
+            android:id="@+id/action_needyHomeFragment_to_restaurantListFragment"
+            app:destination="@id/restaurantListFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_needyHomeFragment_to_needySettingsFragment"
+            app:destination="@id/needySettingsFragment"
+            app:enterAnim="@anim/slide_in_down"
+            app:exitAnim="@anim/slide_out_up"
+            app:popEnterAnim="@anim/slide_in_up"
+            app:popExitAnim="@anim/slide_out_down"/>
+    </fragment>
+</navigation>

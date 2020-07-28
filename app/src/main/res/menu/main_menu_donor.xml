@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile"/>
+
+    <item
+        android:id="@+id/donorOrders"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="@string/orders"/>
+
+    <item android:title="@string/main_menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_vert_24_black">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                app:showAsAction="never"
+                android:title="@string/settings"/>
+
+            <item
+                android:id="@+id/log_out"
+                app:showAsAction="never"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+
+</menu>

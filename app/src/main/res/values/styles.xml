@@ -1,0 +1,156 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- String style. -->
+    <style name="welcome_to">
+        <item name="android:textSize">30sp</item>
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+
+    <style name="appTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/comfortaa</item>
+    </style>
+
+    <!-- Search style. -->
+    <style name="searchLayout">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <!-- Search EditText style. -->
+    <style name="buttonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/sniglet</item>
+        <item name="android:elevation">10dp</item>
+        <item name="android:textColor">@color/design_default_color_on_primary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding"> 10dp</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <!-- Search EditText style. -->
+    <style name="searchEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:drawableStart">@drawable/quantum_ic_search_grey600_24</item>
+        <item name="android:background">@drawable/text_rect</item>
+        <item name="android:backgroundTint">@color/blueGrey</item>
+        <item name="android:inputType">text</item>
+        <item name="android:elevation">15dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColorHint">@color/design_default_color_on_primary</item>
+    </style>
+
+    <!-- Magnify style. -->
+    <style name="magnify">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:background">@drawable/ic_search</item>
+        <item name="android:translationZ">1dp</item>
+    </style>
+
+    <!-- Profile style. -->
+    <style name="profile_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">@style/welcome_to</item>
+        <item name="android:textColor">@color/appBar</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Register style. -->
+    <style name="register">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/design_default_color_on_secondary</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:background">@drawable/text_rect</item>
+        <item name="android:backgroundTint">@color/blueGrey</item>
+        <item name="android:ems">10</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">18dp</item>
+    </style>
+
+    <!-- Register style. -->
+    <style name="authText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/design_default_color_on_secondary</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/comfortaa</item>
+    </style>
+
+
+    <!-- Volunteer theme. -->
+    <style name="AppTheme.LightActionBar">
+        <item name="android:statusBarColor">@color/design_default_color_on_primary</item>
+        <item name="titleTextColor">@color/design_default_color_on_secondary</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <!--Donor application theme. -->
+    <style name="AppTheme.NoActionBarDonor" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/design_default_color_on_primary</item>
+        <item name="android:elevation">0dp</item>
+        <item name="colorAccent">@color/design_default_color_on_secondary</item>
+    </style>
+
+
+    <!--Needy application theme. -->
+    <style name="AppTheme.NoActionBarNeedy" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/design_default_color_on_primary</item>
+        <item name="android:elevation">0dp</item>
+        <item name="colorAccent">@color/appBar</item>
+    </style>
+
+    <!-- Auth application theme. -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/design_default_color_on_primary</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

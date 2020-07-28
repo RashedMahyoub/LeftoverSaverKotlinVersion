@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomeActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_primary"
+    tools:context=".view.ui.WelcomeActivity">
+
+
+    <TextView
+        android:id="@+id/welcome_to"
+        style="@style/authText"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/leftoversaver"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <TextView
+        android:id="@+id/register_text"
+        style="@style/authText"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/who_are_you"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelines"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/needy"
+        style="@style/buttonStyle"
+        android:background="@drawable/button_anim_circle_blue"
+        android:text="@string/needy"
+        app:layout_constraintEnd_toStartOf="@+id/donor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelines" />
+
+    <TextView
+        android:id="@+id/donor"
+        style="@style/buttonStyle"
+        android:text="@string/donor"
+        android:background="@drawable/button_anim_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelines" />
+
+    <TextView
+        android:id="@+id/volunteer"
+        style="@style/buttonStyle"
+        android:background="@drawable/button_anim_circle_purple"
+        android:text="@string/volunteer"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/donor"
+        app:layout_constraintTop_toTopOf="@+id/guidelines"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

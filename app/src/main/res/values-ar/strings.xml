@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email">الايميل</string>
+    <string name="name">الاسم</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="address">العنوان(المدينة)</string>
+    <string name="password">كلمه السر</string>
+    <string name="who_are_you">من انت؟</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="additem">تفاصيل الصنف</string>
+    <string name="itemname">الاسم</string>
+    <string name="amount">الكمية</string>
+    <string name="add">اضافة</string>
+    <string name="item">الاصناف</string>
+    <string name="left">باقي</string>
+    <string name="order">اضافة طلب</string>
+    <string name="pick_your_donor">اختر المتبرع</string>
+    <string name="delivery">توصيل</string>
+    <string name="takeHome">اخذ الطلبية شخصيا</string>
+    <string name="orders">الطلبات</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="settings">الاعدادات</string>
+    <string name="account">حساب</string>
+    <string name="home">الرئيسية</string>
+    <string name="menu">القائمة</string>
+    <string name="ok">تم</string>
+    <string name="order_status">االحالة</string>
+    <string name="needy_phone">رقم المحتاج</string>
+    <string name="needy_address">عنوان المحتاج</string>
+    <string name="donor_name">اسم المتبرع</string>
+    <string name="search">البحث</string>
+    <string name="title_activity_donor_main">الصفحة الرئيسية للمتبرع</string>
+    <string name="tab_text_1">الرئيسية</string>
+    <string name="tab_text_2">السجل</string>
+    <string name="hello_blank_fragment">"اهلا "</string>
+    <string name="title_activity_maps">الخريطة</string>
+    <string name="enter_address_city_or_zip_code">ادخل العنوان , المدينة, او الرمز البريدي</string>
+    <string name="pick_your_location">اختار موقعك</string>
+    <string name="locate_me">حدد موقعي</string>
+    <string name="background">الخلفية</string>
+    <string name="welcome">مرحبا</string>
+    <string name="none">لا شي</string>
+    <string name="address_info">مثال: رقم البيت, اسم الشارع</string>
+    <string name="city">المدينة</string>
+    <string name="confirm">تأكيد</string>
+    <string name="main_menu">القائمة الرئيسية</string>
+    <string name="search_by_needy_phone">ابحث عن طريق رقم المحتاج</string>
+    <string name="donor">متبرع</string>
+    <string name="needy">محتاج</string>
+    <string name="volunteer">متطوع</string>
+    <string name="you_have_no_items">ليس لديك اي صنف</string>
+    <string name="english">انجليزي</string>
+    <string name="arabic">عربي</string>
+    <string name="do_you_want_to_confirm_this_for_delivery">هل تريد تاكيد توصيل هذه الطلبية؟</string>
+    <string name="added_to_history"> تمت اضافته للسجل </string>
+    <string name="error"> عفوا! هناك خطا بالعمليه </string>
+    <string name="added">تمت الاضافة بنجاح!</string>
+    <string name="successful_register">تم التسجيل بنجاح!</string>
+    <string name="enter_email">الرجاء ادخال ايميلك!</string>
+    <string name="enter_name">الرجاء ادخال اسمك!</string>
+    <string name="enter_phone">الرجاء ادخال رقم الجوال!</string>
+    <string name="enter_address">الرجاء ادخال عنوانك!</string>
+    <string name="enter_password">الرجاء ادخال كلمة السرك!</string>
+    <string name="verify_email">الرجاء ادخال ايميل صحيح</string>
+    <string name="wrong_account">عفوا, رقم الهاتف او كلمة السر غير صحيحة</string>
+    <string name="item_deleted">تم حذف الصنف بنجاح!</string>
+    <string name="item_added">تمت الاضافة بنجاح!</string>
+    <string name="enter_item_name">الرجاء ادخال اسم الصنف</string>
+    <string name="enter_item_amount">الرجاء ادخال الكمية</string>
+    <string name="order_deleted">تم حذف الطلبية بنجاح!</string>
+    <string name="order_confirmed">تم تأكيد الطلبيه!</string>
+    <string name="pick_one_item_message">يجب على الاقل اختيار صنف واحد</string>
+    <string name="upload_sccess"> تم تغيير الصورة بنجاح </string>
+    <string name="press_to_choose_imagee">اضغط لكي تختار الصورة</string>
+    <string name="short_password">كلمة السر قصيرة جدا</string>
+    <string name="register">تسجيل حساب</string>
+    <string name="orders_in">الطلبات في</string>
+    <string name="no_orders">لا يوجد طلبات</string>
+    <string name="item_updated">تم التعديل بنجاح!</string>
+    <string name="eg_chicken">مثال: دجاج</string>
+    <string name="enter">دخول</string>
+    <string name="order_updated">تم تحديث الطلبية الي \"تم التوصيل\"</string>
+    <string name="out_of_stock">لا يوجد اي صنف</string>
+    <string name="restaurants">المتبرعين في</string>
+    <string name="items_limit">لاتسطيع طلب اكثر من 50 % من الكمية من نفس الصنف</string>
+    <string name="order_is_below">معلومات الطلبية سوف تكون هنا</string>
+    <string name="confirm_delivery">تم توصيل الطلبية</string>
+    <string name="amount_hint">"مثال: 1.5 "</string>
+    <string name="order_type">نوع الطلبية</string>
+
+
+
+    <string-array name="usertype">
+        <item>محتاج</item>
+        <item>متطوع</item>
+        <item>متبرع</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>اختر اللغة</item>
+        <item>انجليزي</item>
+        <item>عربي</item>
+    </string-array>
+
+
+</resources>
